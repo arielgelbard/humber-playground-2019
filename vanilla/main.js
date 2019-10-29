@@ -1,3 +1,4 @@
+console.log('vanilla');
 // Did it load the first time?
 let firstTime = false;
 

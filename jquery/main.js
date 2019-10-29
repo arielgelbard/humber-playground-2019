@@ -1,3 +1,4 @@
+console.log('jquery');
 /* eslint-disable no-undef */
 // Did it load the first time?
 let firstTime = false;

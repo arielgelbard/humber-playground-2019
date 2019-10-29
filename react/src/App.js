@@ -10,6 +10,7 @@ function App() {
   let firstTime = false;
 
   useEffect(() => {
+    console.log('react');
     firebaseRef.on('value', (res) => {
       const theChatRoom = res.val();
       let data = [];
