@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "test22",
+    "public": "vanilla",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
